@@ -15,6 +15,9 @@
     "build": "rimraf lib && tsc && npm run cp",
     "prepublishOnly": "npm run build"
   },
+  "publishConfig": {
+    "registry": "https://github.com/El-Chiang/jest-electron"
+  },
   "jest": {
     "runner": "./runner",
     "testEnvironment": "./environment",
