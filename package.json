@@ -16,7 +16,7 @@
     "prepublishOnly": "npm run build"
   },
   "publishConfig": {
-    "registry": "https://github.com/El-Chiang/jest-electron"
+    "registry": "https://registry.npm.alibaba-inc.com"
   },
   "jest": {
     "runner": "./runner",
